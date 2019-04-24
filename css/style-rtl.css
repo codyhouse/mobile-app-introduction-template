@@ -1,0 +1,147 @@
+body {
+  direction: rtl;
+}
+.cd-header #cd-logo {
+  float: right;
+  margin: 18px 5% 0 0;
+}
+.cd-header #cd-action {
+  display: inline-block;
+  float: left;
+  margin: 10px 0 0 5%;
+}
+.cd-product-intro .btn {
+  margin-left: 8px;
+}
+@media only screen and (min-width: 1070px) {
+  .cd-product-intro {
+    right: 10%;
+    text-align: right;
+  }
+  .is-product-tour .cd-product-intro {
+    opacity: 0;
+    -webkit-transform: translateY(-50%) translateX(+50%);
+    -moz-transform: translateY(-50%) translateX(+50%);
+    -ms-transform: translateY(-50%) translateX(+50%);
+    -o-transform: translateY(-50%) translateX(+50%);
+    transform: translateY(-50%) translateX(+50%);
+  }
+  .cd-product-intro .btn {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .cd-header #cd-logo {
+    margin-top: 32px;
+  }
+  .cd-header #cd-action {
+    margin: 20px 0 0 5%;
+  }
+}
+@media only screen and (min-width: 1070px) {
+  #cd-product-tour {
+    right: 0;
+    -webkit-transform: translateY(-50%) translateX(-75%);
+    -moz-transform: translateY(-50%) translateX(-75%);
+    -ms-transform: translateY(-50%) translateX(-75%);
+    -o-transform: translateY(-50%) translateX(-75%);
+    transform: translateY(-50%) translateX(-75%);
+  }
+}
+@media only screen and (min-width: 850px) {
+  .cd-single-item .cd-caption {
+    float: right;
+  }
+  .cd-single-item:nth-child(2n) .cd-caption {
+    float: left;
+  }
+}
+@media only screen and (min-width: 1070px) {
+  .cd-single-item {
+    right: 0;
+    text-align: right;
+  }
+  .cd-single-item .cd-caption {
+    float: left;
+    margin: 80px 5% 0 0;
+  }
+  .cd-single-item.cd-move-right .cd-caption {
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+@media only screen and (min-width: 850px) {
+  .cd-image-container {
+    float: left;
+  }
+  .cd-single-item:nth-child(2n) .cd-image-container {
+    float: right;
+  }
+}
+@media only screen and (min-width: 1070px) {
+  .cd-image-container {
+    float: right;
+  }
+  .cd-image-container video {
+    right: 50%;
+    left: auto;
+    -webkit-transform: translateX(50%) translateY(-50%) rotate(-90deg);
+    -moz-transform: translateX(50%) translateY(-50%) rotate(-90deg);
+    -ms-transform: translateX(50%) translateY(-50%) rotate(-90deg);
+    -o-transform: translateX(50%) translateY(-50%) rotate(-90deg);
+    transform: translateX(50%) translateY(-50%) rotate(-90deg);
+  }
+  .cd-move-right .cd-image-container img {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .cd-move-right .cd-image-container video {
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -ms-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -o-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+  }
+}
+.cd-phone-frame {
+  right: -10px;
+}
+.cd-phone-frame::after, .cd-phone-frame::before {
+  right: 50%;
+  left: auto;
+  -webkit-transform: translateX(50%);
+  -moz-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  -o-transform: translateX(50%);
+  transform: translateX(50%);
+}
+.cd-slider-nav {
+  right: 0;
+}
+.cd-slider-nav a {
+  float: right;
+}
+.cd-slider-nav a::before {
+  right: 50%;
+  left: auto;
+  -webkit-transform: translateX(50%) translateY(-50%) rotate(180deg);
+  -moz-transform: translateX(50%) translateY(-50%) rotate(180deg);
+  -ms-transform: translateX(50%) translateY(-50%) rotate(180deg);
+  -o-transform: translateX(50%) translateY(-50%) rotate(180deg);
+  transform: translateX(50%) translateY(-50%) rotate(180deg);
+}
+.cd-slider-nav .cd-next::before {
+  -webkit-transform: translateX(50%) translateY(-50%);
+  -moz-transform: translateX(50%) translateY(-50%);
+  -ms-transform: translateX(50%) translateY(-50%);
+  -o-transform: translateX(50%) translateY(-50%);
+  transform: translateX(50%) translateY(-50%);
+}
+.cd-loader {
+  right: 0;
+}
